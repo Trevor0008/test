@@ -3,7 +3,7 @@ const rl=readline.createInterface({
     input:process.stdin,
     output:process.stdout
 })
-rl.question("Enter a number: ", function(num1){{
+rl.question("Enter a number: ", function(num1){
     num1=parseInt(num1)
 
     rl.question("Enter another number: ", function(num2){
@@ -14,4 +14,4 @@ rl.question("Enter a number: ", function(num1){{
 
         rl.close()
     })
-}})
+})
